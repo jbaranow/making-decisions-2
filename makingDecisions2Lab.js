@@ -36,7 +36,7 @@ for (family of family) {
 
 // Do not edit the code below.
 var nums = [1,2,3,6,22,98,45,23,22,12];
-let evensArr = []
+let evensArr = [];
 // Do not edit the code above.
 
 /*
@@ -44,8 +44,12 @@ let evensArr = []
 */
 
 //Code Here
-
-
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 0) {
+    evensArr.push(nums[i]);
+    console.log(evensArr);
+  }
+}
 
 ////////// PROBLEM 5 //////////
 
