@@ -28,8 +28,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-
-
+for (family of family) {
+  console.log(family);
+}
 
 ////////// PROBLEM 4 //////////
 
