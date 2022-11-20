@@ -122,12 +122,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-for (let i = 0; i < letters.length; letters--) {
-  if (condition) {
-    
+for(let i = letters.length - 1; i >= 0; i--){
+  console.log(letters[i]);
   }
-  console.log(letters);  
-}
 ////////// Advanced Problems //////////
 
 ////////// PROBLEM 10 //////////
