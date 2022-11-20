@@ -122,7 +122,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-for(let i = letters.length - 1; i >= 0; i--){
+for(i = letters.length - 1; i >= 0; i--){
   console.log(letters[i]);
   }
 ////////// Advanced Problems //////////
@@ -145,12 +145,29 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+const grades = new Array('A', 'B', 'C', 'D', 'F');
 
+switch (letterGrade) {
+  case A: 
+  console.log("The student is doing excellently.");
+    break;
+  case B: console.log("The Student is doing well.");
+    break;
+  case C: console.log("The student is doing alright.");
+      break;
+  case D:console.log("The student is not doing very well.");
+      break;
+  case F: console.log("The student is failing.");
+      break;
+    default:console.log("Not an eligible grade");
+}
+console.log(letterGrade)
 
 
 ////////// PROBLEM 11 //////////
 /* The famous FizzBuzz, Devmountain style!
-  Create a for loop that iterates from 1 to 100. In this for loop, using some conditional logic, if the number your for loop is currently on is divisible by 3, console.log 'Dev'. If the number is divisible by 5, console.log 'mountain'. If the number is divisible by 5 & 3, console.log 'Devmountain'. If the number is not divisible by 5 or 3, console.log the number itself. Hint: Look up the modulo operator.
+  Create a for loop that iterates from 1 to 100. In this for loop, using some conditional logic, if the number your for loop is currently on is divisible by 3, console.log 'Dev'. If the number is divisible by 5, console.log 'mountain'. 
+  If the number is divisible by 5 & 3, console.log 'Devmountain'. If the number is not divisible by 5 or 3, console.log the number itself. Hint: Look up the modulo operator.
 
   Your output should look like:
   1
